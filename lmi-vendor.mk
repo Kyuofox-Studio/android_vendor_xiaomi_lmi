@@ -1399,8 +1399,8 @@ PRODUCT_PACKAGES += \
     TimeService \
     PowerOffAlarm \
     uimgbaservice \
-    HotwordEnrollmentOKGoogleHEXAGON \
-    HotwordEnrollmentXGoogleHEXAGON \
+    HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
+    HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     ImsRcsService \
     QtiTelephony \
     QtiTelephonyService \
