@@ -170,6 +170,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "QCC",
+	owner: "xiaomi",
+	apk: "proprietary/system_ext/app/QCC/QCC.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
 	name: "QtiTelephony",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/QtiTelephony/QtiTelephony.apk",
@@ -356,6 +367,15 @@ dex_import {
 	name: "vendor.qti.ims.rcsuce-V1.2-java",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsuce-V1.2-java.jar"],
+	system_ext_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.qccsyshal_aidl-service",
+	owner: "xiaomi",
+	src: "proprietary/system_ext/etc/vintf/manifest/vendor.qti.qccsyshal_aidl-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
 	system_ext_specific: true,
 }
 
