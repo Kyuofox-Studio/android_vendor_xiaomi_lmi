@@ -804,11 +804,11 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libOmxVpp.so"],
-			shared_libs: ["liblog", "libutils", "libbinder", "libcutils", "libOmxCore", "libvppclient", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "vendor.qti.hardware.capabilityconfigstore@1.0", "libhidlbase", "libhidltransport", "libhwbinder", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libutils", "libbinder", "libcutils", "libvppclient", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "vendor.qti.hardware.capabilityconfigstore@1.0", "libhidlbase", "libhidltransport", "libhwbinder", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libOmxVpp.so"],
-			shared_libs: ["liblog", "libutils", "libbinder", "libcutils", "libOmxCore", "libvppclient", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "vendor.qti.hardware.capabilityconfigstore@1.0", "libhidlbase", "libhidltransport", "libhwbinder", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libutils", "libbinder", "libcutils", "libvppclient", "vendor.qti.hardware.vpp@1.1", "vendor.qti.hardware.vpp@1.2", "vendor.qti.hardware.capabilityconfigstore@1.0", "libhidlbase", "libhidltransport", "libhwbinder", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -3620,7 +3620,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libOmxVideoDSMode.so"],
-			shared_libs: ["liblog", "libmmosal", "libutils", "libOmxCore", "libwfdcommonutils_proprietary", "libwfdmmservice_proprietary", "libbinder", "libwfdutils_proprietary", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libmmosal", "libutils", "libbinder", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
@@ -6925,7 +6925,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcne.so"],
-			shared_libs: ["libcutils", "liblog", "libdiag", "libnetutils", "libutils", "libcneapiclient", "libqmiservices", "libqmi_cci", "libqti_vndfwk_detect", "libhardware_legacy", "libhidlbase", "libnl", "libidl", "vendor.qti.hardware.data.cne.internal.server@1.0", "vendor.qti.hardware.data.cne.internal.api@1.0", "vendor.qti.hardware.data.cne.internal.constants@1.0", "vendor.qti.hardware.data.latency@1.0", "vendor.qti.hardware.data.lce@1.0", "libandroid_net", "vendor.qti.data.factory@2.0", "vendor.qti.data.factory@2.1", "vendor.qti.data.factory@2.2", "vendor.qti.data.factory@2.3", "vendor.qti.hardware.data.qmi@1.0", "vendor.qti.hardware.data.dynamicdds@1.0", "vendor.qti.ims.rcsconfig@1.0", "vendor.qti.ims.rcsconfig@1.1", "vendor.qti.latency@2.0", "vendor.qti.latency@2.1", "vendor.qti.hardware.mwqemadapter@1.0", "vendor.qti.data.mwqem@1.0", "libwpa_client", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcutils", "liblog", "libdiag", "libnetutils", "libutils", "libcneapiclient", "libqmiservices", "libqmi_cci", "libqti_vndfwk_detect", "libhardware_legacy", "libhidlbase", "libnl", "libidl", "vendor.qti.hardware.data.cne.internal.server@1.0", "vendor.qti.hardware.data.cne.internal.api@1.0", "vendor.qti.hardware.data.cne.internal.constants@1.0", "vendor.qti.hardware.data.latency@1.0", "vendor.qti.hardware.data.lce@1.0", "libandroid_net", "vendor.qti.data.factory@2.0", "vendor.qti.data.factory@2.1", "vendor.qti.data.factory@2.2", "vendor.qti.data.factory@2.3", "vendor.qti.hardware.data.qmi@1.0", "vendor.qti.hardware.data.dynamicdds@1.0", "vendor.qti.ims.rcsconfig@1.0", "vendor.qti.ims.rcsconfig@1.1", "vendor.qti.latency@2.0", "vendor.qti.latency@2.1", "vendor.qti.hardware.mwqemadapter@1.0", "vendor.qti.data.mwqem@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -7979,7 +7979,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmialgoengine.so"],
-			shared_libs: ["libxmi_high_dynamic_range", "libMIAIHDRhvx_interface", "liblog", "libutils", "libcutils", "libhardware", "libnativewindow", "libEGL", "libion", "libGLESv2", "libgrallocutils", "libmpbase", "libarcsoft_beautyshot", "libarcsoft_portrait_lighting", "libarcsoft_portrait_lighting_c", "libarcsoft_distortion_correction", "libarcsoft_bodyslim", "libarcsoft_superportrait", "libmialgo_ie_capture", "libmialgo_utils", "libalhLDC", "libalAILDC", "libflaw", "libalCFR", "librelight_only", "libarcsoft_dualcam_refocus", "libsupermoon", "libHalSuperSensorServer", "libSuperSensor", "libSuperSensorCPU", "libmibokeh_855", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libxmi_high_dynamic_range", "libMIAIHDRhvx_interface", "liblog", "libutils", "libcutils", "libhardware", "libnativewindow", "libEGL", "libion", "libGLESv2", "libmpbase", "libarcsoft_beautyshot", "libarcsoft_portrait_lighting", "libarcsoft_portrait_lighting_c", "libarcsoft_distortion_correction", "libarcsoft_bodyslim", "libarcsoft_superportrait", "libmialgo_ie_capture", "libmialgo_utils", "libalhLDC", "libalAILDC", "libflaw", "libalCFR", "librelight_only", "libarcsoft_dualcam_refocus", "libsupermoon", "libHalSuperSensorServer", "libSuperSensor", "libSuperSensorCPU", "libmibokeh_855", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -9628,7 +9628,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libwqe.so"],
-			shared_libs: ["libbinder", "libcutils", "libnetutils", "libutils", "liblog", "libsqlite", "libcneapiclient", "libcne", "libnl", "libxml", "libxml2", "libandroid_net", "libqti_vndfwk_detect", "vendor.qti.hardware.data.cne.internal.server@1.0", "vendor.qti.hardware.data.cne.internal.api@1.0", "vendor.qti.hardware.mwqemadapter@1.0", "libwpa_client", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libbinder", "libcutils", "libnetutils", "libutils", "liblog", "libsqlite", "libcneapiclient", "libcne", "libnl", "libxml", "libxml2", "libandroid_net", "libqti_vndfwk_detect", "vendor.qti.hardware.data.cne.internal.server@1.0", "vendor.qti.hardware.data.cne.internal.api@1.0", "vendor.qti.hardware.mwqemadapter@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -13352,7 +13352,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/imsdatadaemon"],
-			shared_libs: ["libqmi_cci", "libcutils", "liblog", "libqmiservices", "libqmi_csi", "libdsi_netctrl", "libdiag", "libwpa_client", "libcneapiclient", "libandroid_net", "libutils", "libhidlbase", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libqmi_cci", "libcutils", "liblog", "libqmiservices", "libqmi_csi", "libdsi_netctrl", "libdiag", "libcneapiclient", "libandroid_net", "libutils", "libhidlbase", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -13495,7 +13495,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/lowi-server"],
-			shared_libs: ["libcutils", "libgps.utils", "liblog", "libnl", "libwpa_client", "libqmi_cci", "libqmi_common_so", "libdiag", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcutils", "libgps.utils", "liblog", "libnl", "libqmi_cci", "libqmi_common_so", "libdiag", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
