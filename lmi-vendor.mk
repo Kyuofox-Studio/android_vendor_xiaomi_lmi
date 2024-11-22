@@ -460,10 +460,8 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl-qti \
     android.hardware.gnss@2.1-impl-qti \
     audio.bluetooth_qti.default \
-    audio.primary.kona \
     com.dsi.ant@1.0-impl \
     vendor.qti.hardware.alarm@1.0-impl \
-    vendor.qti.hardware.audiohalext@1.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
@@ -488,7 +486,6 @@ PRODUCT_PACKAGES += \
     libOmxWmaDec \
     libOpenCL \
     libVkLayer_q3dtools \
-    liba2dpoffload \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -497,8 +494,6 @@ PRODUCT_PACKAGES += \
     libadsp_default_listener \
     libadsprpc \
     libaudcal \
-    libaudio_log_utils \
-    libaudioconfigstore \
     libaudioroute_ext \
     libbase64 \
     libbatching \
@@ -580,7 +575,6 @@ PRODUCT_PACKAGES += \
     libqti-util \
     libqtigef \
     libqtikeymaster4 \
-    libresampler \
     libscveCommon \
     libscveCommon_stub \
     libscveObjectSegmentation \
@@ -609,7 +603,6 @@ PRODUCT_PACKAGES += \
     libqcvirt \
     libshoebox \
     vendor.qti.hardware.alarm@1.0 \
-    vendor.qti.hardware.audiohalext@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.dsp@1.0 \
@@ -617,15 +610,22 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
+    audio.primary.kona \
+    vendor.qti.hardware.audiohalext@1.0-impl \
     libOmxDsdDec \
     libOmxVideoDSMode \
+    liba2dpoffload \
     libadm \
     libadpcmdec \
+    libaudio_log_utils \
+    libaudioconfigstore \
     libcppf \
     libdsd2pcm \
     libfastcrc \
+    libresampler \
     libsmwrapper \
     libmisoundfx \
+    vendor.qti.hardware.audiohalext@1.0 \
     libxlog \
     android.hardware.secure_element@1.0-impl \
     com.qti.eeprom.lmi_sunny_imx686_gt24p64b \
