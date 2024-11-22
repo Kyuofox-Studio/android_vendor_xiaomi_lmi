@@ -502,16 +502,6 @@ PRODUCT_PACKAGES += \
     libbt-hidlclient \
     libbtnv \
     libc2d30_bltlib \
-    libcamxexternalformatutils \
-    libcamxfacialfeatures \
-    libcamxfdalgo \
-    libcamxfdengine \
-    libcamxifestriping \
-    libcamximageformatutils \
-    libcamxncs \
-    libcamxstatscore \
-    libcamxswprocessalgo \
-    libcamxtintlessalgo \
     libcapiv2svacnn \
     libcapiv2svarnn \
     libcapiv2vop \
@@ -804,6 +794,16 @@ PRODUCT_PACKAGES += \
     libcamera_nn_stub \
     libcamera_scene \
     libcamerapostproc \
+    libcamxexternalformatutils \
+    libcamxfacialfeatures \
+    libcamxfdalgo \
+    libcamxfdengine \
+    libcamxifestriping \
+    libcamximageformatutils \
+    libcamxncs \
+    libcamxstatscore \
+    libcamxswprocessalgo \
+    libcamxtintlessalgo \
     libcdfw \
     libcdfw_remote_api \
     libchilog \
