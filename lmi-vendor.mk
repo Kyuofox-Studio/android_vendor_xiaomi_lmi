@@ -449,7 +449,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     btaudio_offload_if \
-    com.qualcomm.qti.dpm.api@1.0 \
+    com.qualcomm.qti.dpm.api@1.0_vendor \
     eglSubDriverAndroid \
     libEGL_adreno \
     libGLESv1_CM_adreno \
