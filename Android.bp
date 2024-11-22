@@ -3552,14 +3552,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "audio.primary.kona",
+	name: "audio.primary.lmi",
 	owner: "xiaomi",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/vendor/lib/hw/audio.primary.kona.so"],
+			srcs: ["proprietary/vendor/lib/hw/audio.primary.lmi.so"],
 			shared_libs: ["libbase", "liblog", "libcutils", "libtinyalsa", "libtinycompress", "libaudioroute", "libaudioutils", "libexpat", "libhidlbase", "libprocessgroup", "libutils", "libaudioroute_ext", "libhardware_legacy", "libresampler", "libaudio_log_utils", "vendor.qti.hardware.audiohalext@1.0", "android.hardware.power@1.2", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
@@ -3623,14 +3623,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "liba2dpoffload",
+	name: "liba2dpoffload_lmi",
 	owner: "xiaomi",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/vendor/lib/liba2dpoffload.so"],
+			srcs: ["proprietary/vendor/lib/liba2dpoffload_lmi.so"],
 			shared_libs: ["libaudioutils", "libcutils", "liblog", "libtinyalsa", "libtinycompress", "libaudioroute", "libexpat", "libc++", "libc", "libm", "libdl", ],
 		},
 	},

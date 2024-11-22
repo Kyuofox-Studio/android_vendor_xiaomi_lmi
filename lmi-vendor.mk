@@ -615,11 +615,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.3 \
     vendor.qti.memory.pasrmanager@1.0 \
     vendor.qti.memory.pasrmanager@1.1 \
-    audio.primary.kona \
+    audio.primary.lmi \
     vendor.qti.hardware.audiohalext@1.0-impl \
     libOmxDsdDec \
     libOmxVideoDSMode \
-    liba2dpoffload \
+    liba2dpoffload_lmi \
     libadm \
     libadpcmdec \
     libaudio_log_utils \
